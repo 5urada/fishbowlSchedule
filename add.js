@@ -2,7 +2,8 @@ function addWorker(NAME) {
   const ss = SpreadsheetApp.getActiveSpreadsheet();
   const sheet = ss.getActiveSheet();
   
-  // Found the last row with content in column A
+  // Finding the last row with content in column A
+
   const lastRow = sheet.getLastRow();
   const newRow = lastRow + 1;
 
