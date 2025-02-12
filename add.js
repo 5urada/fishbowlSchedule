@@ -3,6 +3,7 @@ function addWorker(NAME) {
   const sheet = ss.getActiveSheet();
   
   // Finding the last row with content in column A
+
   const lastRow = sheet.getLastRow();
   const newRow = lastRow + 1;
 
